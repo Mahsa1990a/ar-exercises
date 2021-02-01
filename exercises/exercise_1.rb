@@ -12,6 +12,6 @@ gastown = Store.create(name: "Gastown", annual_revenue: 190000, mens_apparel: tr
 
 
 #Output (puts) the number of the stores using ActiveRecord's count method, to ensure that there are three stores in the database.
-puts Store.count
+puts Store.count    # 3
 
 puts "Exercise 1 DONE"
